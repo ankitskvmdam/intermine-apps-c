@@ -28570,6 +28570,22 @@ if (typeof module !== "undefined" && module.exports) {
           
             __out.push(__sanitize(this.row["matches"]));
           
+            __out.push('</a>\n</td>\n<td class="pValue">');
+          
+            __out.push(__sanitize(this.row["p-value"]));
+          
+            __out.push('</td>\n<td class="matches">\n    <a class="count" style="cursor:pointer">');
+          
+            __out.push(__sanitize(this.row["matches"]));
+          
+            __out.push('</a>\n</td>\n<td class="pValue">');
+          
+            __out.push(__sanitize(this.row["p-value"]));
+          
+            __out.push('</td>\n<td class="matches">\n    <a class="count" style="cursor:pointer">');
+          
+            __out.push(__sanitize(this.row["matches"]));
+          
             __out.push('</a>\n</td>\n');
           
           }).call(this);
@@ -28628,7 +28644,7 @@ if (typeof module !== "undefined" && module.exports) {
           
             __out.push(__sanitize(this.label));
           
-            __out.push('</th>\n                <th class="pValue">p-Value</th>\n                <th class="matches">Matches</th>\n            </tr>\n        </thead>\n        <tbody>\n            <!-- loop enrichment.row.eco -->\n        </tbody>\n    </table>\n    <div class="right"></div>\n</div>');
+            __out.push('</th>\n                <th class="pValue">p-Value</th>\n                <th class="matches">Matches</th>\n                <th class="pValue">p-Value</th>\n                <th class="pValue">p-Value</th>\n                <th class="matches">Matches</th>\n                <th class="matches">Matches</th>\n            </tr>\n        </thead>\n        <tbody>\n            <!-- loop enrichment.row.eco -->\n        </tbody>\n    </table>\n    <div class="right"></div>\n</div>');
           
           }).call(this);
           
